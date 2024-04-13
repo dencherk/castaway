@@ -1,0 +1,110 @@
+.page {
+    background-color: #191919;
+    font-family: 'DMSans';
+    color: #fff;
+}
+
+.header {
+    padding: 40px 0;
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.nav__list {
+    display: flex;
+    margin-right: 20px;
+    gap: 44px;
+}
+
+.nav__list-link {
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+.nav__list-link:active {
+    color: #118DA8;
+}
+
+.nav__list-link:hover {
+    color: #118DA8;
+}
+/* секция с картнкой и title*/
+.header__cover {
+    display: flex;
+    position: relative;
+    padding: 80px 70px;
+}
+
+.splash {
+    position: absolute;
+    top: 55px;
+    left: 45px;
+}
+
+.header__cover-title{
+    position: relative;
+}
+
+.header__cover-title {
+    padding: 296px 0 0 60px;
+}
+
+.header__title {
+    max-width: 700px;
+    position: relative;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 1.6px;
+}
+
+.title__next {
+    position: relative;
+    display: inline-block;
+    font-size: 75px;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+}
+
+.title__next::after {
+    content: '';
+    width: 100%;
+    height: 101px;
+    bottom: -10px;
+    left: 0;
+    position: absolute;
+    background-image: url(../img/underline.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title__level {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+}
+
+.header__cover-listen-title {
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 85px;
+    padding-left: 20px;
+}
+
+.header__cover-listen-icon {
+    padding-top: 18px;
+    padding-left: 20px;
+}
+
+.icon {
+    margin-right: 13px;
+}

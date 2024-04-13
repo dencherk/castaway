@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "DMSans";
+    src: local("DMSans"),
+         url(./DMSans-VariableFont_opsz_wght.woff) format("woff2 supports variations"),
+         url(./DMSans-VariableFont_opsz_wght.woff) format("woff2-variations");
+      
+    font-display: swap; 
+}
+
+@font-face {
+    font-family: "DMSans-Italic";
+    src: local("DMSans-Italic"),
+         url(./DMSans-Italic-VariableFont_opsz_wght.woff) format("woff2 supports variations"),
+         url(./DMSans-Italic-VariableFont_opsz_wght.woff) format("woff2-variations");
+    font-weight: 400 800;    
+    font-display: swap; 
+}
